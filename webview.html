@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webview</title>
+    <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./static/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/styles/web_css.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="content_bg">
+      <div class="container">
+        <!-- 头部logo和搜索框 -->
+        <div class="row">
+          <div class="col-lg-8 col-md-6 col-sm-12">
+            <a href="#" class="web_logo">
+              <img src="./assets/images/og_Ms_logo.png" alt="ogMs_logo" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="input-group head_search">    
+              <i class="input-group-addon search_or_cancel fa fa-search search_ico"></i>
+
+              <input type="text" class="form-control search_text" placeholder="Search...">
+
+              <i class="input-group-addon search_or_cancel fa fa-times-circle cancel_ico"></i>
+            </div>
+          </div>    
+        </div>
+        <!-- 导航栏 start-->
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+             <!--移动设备下的菜单展开收纳按钮  -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse"
+                  data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- 导航栏选项 -->
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Get a Quote</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- 导航栏 end -->
+
+        <!-- 轮播图 start-->
+        <div id="myCarousel" class="carousel slide">
+          <!-- 轮播（Carousel）指标 -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>   
+          <!-- 轮播（Carousel）项目 -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./assets/images/ogMs_banner.jpg" alt="First slide">
+            </div>
+            <div class="item">
+              <img src="./assets/images/ogMs_banner.jpg" alt="Second slide">
+            </div>
+            <div class="item">
+              <img src="./assets/images/ogMs_banner.jpg" alt="Third slide">
+            </div>
+            <div class="item">
+              <img src="./assets/images/ogMs_banner.jpg" alt="Thour slide">
+            </div>
+          </div>
+          <!-- 轮播（Carousel）导航 -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> 
+        <!-- 轮播图 end -->
+
+        <!-- 文本图片部分 start -->
+        <div class="row">
+          <div class="col-sm-4 content-left">
+            <h2>What the hell is it? I don't know!</h2>
+            <h5>Create on June 12, 2019 in: <a class="sub-link" href="#">GDOU</a></h5>
+            <p class="para">
+              I hear there are big shots here! That's why I came here to mix with the water. In fact, I have no level! I really can't do anything, please forgive me this 
+              <a class="para-link" href="https://jikipedia.com/definition/480895044">vegetable</a> chicken. I really can't type code. I can only copy code. One day, there will be mature software that will write its own code. Ah-ah-ah-ah-ah ~ help! I really want to delete yards to run when a salted fish ah! But also thought of his ignorant appearance, silently shed the tears of ignorant. Can't, later still want to teach a girl to type code. Not line, not line, blind beep beep can not go down, who to save the small poor helpless I. Don't want to type code, won't no won't, this won't that won't, don't understand that don't understand. I don't know anything. Ok! Bye!!
+            </p>
+            <button type="button" class="btn btn-primary para-btn">Click me</button>
+          </div>
+
+          <div class="col-sm-4">
+            <br>
+            <div class="fakeimg">
+              <img class="img-responsive para-img" src="./assets/images/ogMs_feat1.png" alt="ogMs_feat1">
+            </div>
+            <br>
+            <div class="fakeimg">
+              <img class="img-responsive para-img" src="./assets/images/ogMs_feat2.png" alt="ogMs_feat1">
+            </div>
+          </div>
+
+          <div class="col-sm-4 para-right">
+            <h4 class="title-right">Don't steam it! Don't steam it!</h4>
+            <p>
+              Can't copy the code how to do, never mind that there are always big guy will knock, as a salt fish look at it, more to their own body with some salt of the kind.
+            </p>
+            <p>
+              If only knowledge could come to my mind. I miss the salty fish and eat and wait for death. I want to make some bad days every day.
+            </p>
+            <p>
+              This person is lazy, unskilled, every day blind beep beep beep, food is very peaceful, regret to want to cry later, graduation unemployed.
+            </p>
+            <h4 class="title-right">Don't steam it! Don't steam it!</h4>
+            <p>
+              Can't copy the code how to do, never mind that there are always big guy will knock, as a salt fish look at it, more to their own body with some salt of the kind.
+            </p>
+            <p>
+              If only knowledge could come to my mind. I miss the salty fish and eat and wait for death. I want to make some bad days every day.
+            </p>
+            <p>
+              This person is lazy, unskilled, every day blind beep beep beep, food is very peaceful, regret to want to cry later, graduation unemployed.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 底部内容 -->
+      <div class="jumbotron text-center page-footer">
+        <div class="row footer-content">
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <div class="row"> 
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <h6 class="footer-title">About Us</h6>
+                <p class="footer-sub-content">I do not know what this matter, do not understand English, just write at random, gather up the number of words.</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <h6 class="footer-title">About Us</h6>
+                <p>I do not know what this matter, do not understand English, just write at random, gather up the number of words.</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <h6 class="footer-title">About Us</h6>
+                <p>I do not know what this matter, do not understand English, just write at random, gather up the number of words.</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <h6 class="footer-title">About Us</h6>
+                <p class="footer-sub-content">I do not know what this matter, do not understand English, just write at random, gather up the number of words.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 footer-right">
+            <img class="img-responsive footer-img" src="./assets/images/ogMs_eye.png" alt="ogMs_eye">
+          </div>
+        </div>
+        <div class="row footer-copyright">
+          <div class="col-lg-12 col-md-12 col-sm-12 copyright-content">Copyright &copy;2019.My terrible Bootstrap practice.</div>
+        </div>
+      </div>
+
+    </div>
+</body>
+</html>

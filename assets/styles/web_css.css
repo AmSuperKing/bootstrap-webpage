@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.content_bg {
+    background: url('../images/ogMs_bg.jpg') no-repeat center top;
+    background-size: cover; 
+    background-attachment: fixed;
+    -webkit-background-size: cover;  
+    -o-background-size: cover;  
+    -moz-background-size: cover;  
+    -ms-background-size: cover;
+}
+
+/* 头部logo */
+.web_logo {
+    display: block;
+}
+.web_logo_img {
+    width: auto;
+    height: 100px;
+}
+
+/* 头部搜索框 */
+.head_search{
+    margin-left: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 260px;
+    font-size: 16px;
+    background: rgba(53, 53, 53, 0.3);
+    border-radius: 150px;
+    border: 1px solid rgb(110, 110, 110);
+}
+.search_or_cancel {
+    background: none;
+    width: 10px;
+    border-radius: 150px;
+    padding: 0 8px;
+    border: none;
+}
+.search_ico {
+    color: rgb(180, 180, 180);
+}
+.cancel_ico {
+    color: rgb(211, 211, 211);
+}
+.search_text {
+    background: none;
+    border: none;
+    padding: 2px 5px;
+    color: #fff;
+}
+.form-control:focus {
+    outline:none;
+    box-shadow: none;
+}
+.search_text:focus {
+    outline:none;
+}
+
+/* 导航栏 */
+.navbar-default {
+    background-color: #231f20;
+    border: none;
+}
+/* 导航栏菜单选项 */
+.active {
+    background-color: #f7941e;
+    color: #000;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    height: 50px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none
+}
+
+.navbar-default .navbar-brand {
+    color: #000
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #000;
+    background-color: #f7941e
+}
+
+.navbar-toggle {
+    background-color: #fff;
+}
+
+.nav {
+    background-color: #252122;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav li{
+    padding: 0 14px;
+    box-sizing: border-box;
+    width: 16.6%;
+    height: 100%;
+}
+.navbar-nav li a{
+    font-weight: bold;
+    font-size: 16px;
+    width: 150px;
+    height: 100%;
+    margin-right: 15px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #000;
+    background-color: #f7941e
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #f7941e
+}
+
+/* 轮播图 */
+.carousel-inner>.item>img {
+    width: 100%;
+    height: auto;
+}
+.carousel-indicators {
+    bottom: 1px;
+}
+
+/* 文本图片部分 */
+.content-left {
+    color: #fff;
+}
+.sub-link {
+    color: #1E90FF;
+    text-decoration: none;
+}
+.sub-link:link {
+    color: #1E90FF;
+    text-decoration: none;
+}
+.sub-link:visited {
+    color: #1E90FF;
+    text-decoration: none;
+}
+.sub-link:focus :hover :active {
+    color: #1E90FF;
+    text-decoration: none;
+}
+.para {
+    text-align: justify;
+}
+.para-link {
+    color: #f7941e;
+    text-decoration: none;
+    font-weight: bold;
+}
+.para-link:link {
+    color: #f7941e;
+    text-decoration: none;
+}
+.para-link:visited {
+    color: #f7941e;
+    text-decoration: none;
+}
+.para-link:focus :hover :active {
+    color: #f7941e;
+    text-decoration: none;
+}
+.para-btn {
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title-right {
+    color: #f7941e;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.para-right>p {
+    color: #fff;
+    text-align: justify;
+}
+.para-img {
+    width: 100%;
+    height: auto;
+}
+
+/* footer */
+.page-footer {
+    margin-bottom: 0;
+    background: #f7941e;
+    position: relative;
+}
+.footer-content {
+    width: 100%;
+}
+.footer-title {
+    font-weight: bold;
+}
+.jumbotron p {
+    font-size: 12px;
+    margin-left: 15px;
+}
+.footer-right {
+    text-align: center;
+}
+.footer-img {
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer-copyright {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.copyright-content {
+    width: 100%;
+    text-align: left;
+    color: #424242;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
